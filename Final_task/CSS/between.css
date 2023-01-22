@@ -1,0 +1,241 @@
+.between{
+    padding: 5% 20%;
+    -webkit-padding: 5% 20%;
+    -o-padding: 5% 20%;
+    -moz-padding: 5% 20%;
+    width: 60%;
+    display: flex;
+    -webkit-display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    align-content: space-around;
+    -webkit-align-content: space-around;
+    -o-align-content: space-around;
+    -moz-align-content: space-around;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    -o-align-items: stretch;
+    -moz-align-items: stretch;
+    vertical-align: top;
+    -webkit-vertical-align: top;
+    -o-vertical-align: top;
+    -moz-vertical-align: top;
+    background-color: white;
+    -webkit-background-color: white;
+    -o-background-color: white;
+    -moz-background-color: white; 
+}
+.subscribe{
+    color: black;
+    -webkit-color: black;
+    -o-color: black;
+    -moz-color: black;
+    font-size: 30px;
+    -webkit-font-size: 30px;
+    -o-font-size: 30px;
+    -moz-font-size: 30px;
+    text-align: center;
+    -webkit-text-align: center;
+    -o-text-align: center;
+    -moz-text-align: center; 
+    padding-top: 7%;
+    -webkit-padding-top: 7%;
+    -o-padding-top: 7%;
+    -moz-padding-top: 7%;
+}
+.emailBox{
+    margin: 0% 0% 0% 25%;
+    -webkit-margin: 0% 0% 0% 25%;
+    -o-margin: 0% 0% 0% 25%;
+    -moz-margin: 0% 0% 0% 25%;
+    /*position: relative;
+    -webkit-position: relative;
+    -o-position: relative;
+    -moz-position: relative; */
+}
+.emeilbox,
+.emeilbox:hover,
+.emeilbox:active,
+.boxem{
+    cursor: text ;
+   -webkit-cursor: text;
+   -o-cursor: text;
+   -moz-cursor: text;
+}
+.emeilbox{
+    height: 27px;
+    width: 20px;
+    background: rgb(241, 241, 241);
+    -webkit-background: rgb(241, 241, 241);
+    -o-background: rgb(241, 241, 241);
+    -moz-background: rgb(241, 241, 241);
+    border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -o-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;   
+    border: 1px rgb(241, 241, 241) solid;
+    -webkit-border: 1px rgb(241, 241, 241)solid;
+    -o-border: 1px rgb(241, 241, 241) solid;
+    -moz-border: 1px rgb(241, 241, 241) solid;
+    margin: 0% 0% 0% -3%;
+    -webkit-margin: 0% 0% 0% -3%;
+    -o-margin: 0% 0% 0% -3%;
+    -moz-margin: 0% 0% 0% -3%;
+    padding: 1% 0% 0% 3%;
+    -webkit-padding: 1% 0% 0% 3%;
+    -o-padding: 1% 0% 0% 3%;
+    -moz-padding: 1% 0% 0% 3%;
+    text-align: left;
+    -webkit-text-align: left;
+    -o-text-align: left;
+    -moz-text-align: left;    
+    position: absolute;
+    -webkit-position: absolute;
+    -o-position: absolute;
+    -moz-position: absolute;    
+}
+.boxem{
+    appearance: auto;
+   -webkit-appearance: auto;
+   -moz-appearance: auto;
+   -o-appearance: auto;  
+   transition: 0.2s all linear;
+   -webkit-transition: 0.2s all linear;
+   -o-transition: 0.2s all linear;
+   -moz-transition: 0.2s all linear;
+   outline: none;  
+   -webkit-outline: none;
+   -o-outline: none;
+   -moz-outline: none;
+   position: relative;
+   -webkit-position: relative;
+   -o-position: relative;
+   -moz-position: relative;
+   border-top: 1px rgb(241, 241, 241) solid;
+   -webkit-border-top: 1px rgb(241, 241, 241) solid;
+   -o-border-top: 1px rgb(241, 241, 241) solid;
+   -moz-border-top: 1px rgb(241, 241, 241) solid;
+   border-bottom: 1px rgb(241, 241, 241) solid;
+   -webkit-border-bottom: 1px rgb(241, 241, 241) solid;
+   -o-border-bottom: 1px rgb(241, 241, 241) solid;
+   -moz-border-bottom: 1px rgb(241, 241, 241) solid;
+   border-left: 1px transparent solid;
+   -webkit-border-left: 1px transparent solid;
+   -o-border-border-left: 1px transparent solid;
+   -moz-border-border-left: 1px transparent solid;
+   background: rgb(241, 241, 241);
+    -webkit-background: rgb(241, 241, 241);
+    -o-background: rgb(241, 241, 241);
+    -moz-background: rgb(241, 241, 241);
+    color: rgb(175, 175, 175);
+    -webkit-color: rgb(175, 175, 175);
+    -o-color: rgb(175, 175, 175);
+    -moz-color: rgb(175, 175, 175);
+    font-size: 11px;
+    -webkit-font-size: 11px;
+    -o-font-size: 11px;
+    -moz-font-size: 11px;
+    width: 350px;
+    height: 40px;  
+}
+.emailf{
+    outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -moz-outline: none;
+    display: flex;
+    -webkit-display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    vertical-align: top;
+    -webkit-vertical-align: top;
+    -o-vertical-align: top;
+    -moz-vertical-align: top;
+}
+.alist{
+    height: 30px;
+    width: 150px;
+    outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -moz-outline: none;
+    text-decoration: none;
+    -webkit-decoration: none;
+    -o-decoration: none;
+    -moz-decoration: none;
+    display: flex;
+    -webkit-display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+    text-align: center;
+    -webkit-text-align: center;
+    -o-text-align: center;
+    -moz-text-align: center;
+    position: absolute;
+    -webkit-position: absolute;
+    -o-position: absolute;
+    -moz-position: absolute;
+    border-radius: 0px 23px 23px 0px;
+    -webkit-border-radius: 0px 23px 23px 0px;
+    -o-border-radius: 0px 23px 23px 0px;
+    -moz-border-radius: 0px 23px 23px 0px;
+    margin: 0px 0px 0px 550px;
+    -webkit-margin: 0px 0px 0px 550px;
+    -o-margin: 0px 0px 0px 550px;
+    -moz-margin: 0px 0px 0px 550px;
+    padding: 0.8% 0% 0% 2%;
+    -webkit-padding: 0.8% 0% 0% 2%;
+    -o-padding: 0.8% 0% 0% 2%;
+    -moz-padding: 0.8% 0% 0% 2%;
+    background: orangered;
+    -webkit-background: orangered;
+    -o-background: orangered;
+    -moz-background: orangered; 
+    color: white;
+    -webkit-color: white;
+    -o-color: white;
+    -moz-color: white;
+    font-size: 12px;
+    -webkit-font-size: 12px;
+    -o-font-size: 12px;
+    -moz-font-size: 12px;
+    border: 1px orangered solid;
+    -webkit-border: 1px orangered solid;
+    -o-border: 1px orangered solid;
+    -moz-border: 1px orangered solid;
+}
+.alist:link,
+.alist:focus,
+.alist:hover,
+.alist:active{
+    color: black;
+    -webkit-color: black;
+    -o-color: black;
+    -moz-color: black;
+    border: 1px rgb(207, 59, 5) solid;
+    -webkit-border: 1px rgb(207, 59, 5) solid;
+    -o-border: 1px rgb(207, 59, 5) solid;
+    -moz-border: 1px rgb(207, 59, 5) solid;
+}
+
+/*.ulist{
+    padding: 0;
+    -webkit-padding: 0;
+    -o-padding: 0;
+    -moz-padding: 0;
+    width: 100%;
+}
+.list{
+    display: inline;
+    -webkit-display: inline;
+    -o-display: inline;
+    -moz-display: inline;
+}*/
