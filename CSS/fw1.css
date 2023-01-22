@@ -459,7 +459,7 @@ main{
     -webkit-border: 1px white solid;
     -o-border: 1px white solid;
     -moz-border: 1px white solid;
-}
+} 
 .contact:checked::after {
     content: '';
     -webkit-content: '';
